@@ -13,7 +13,7 @@ files_to_combine = [
     "src/audio/songs.hpp",  # must come after Song.hpp as it uses it
     "src/audio/songs.cpp",  # must come after songs.hpp as it uses it
     # MAIN FILE
-    "ff7-fanfare-fsm.ino",  # should come after all other files
+    "embedded-ff7-fanfare.ino",  # should come after all other files
 ]
 
 # foreach loop to read each file and append its content to a single string
