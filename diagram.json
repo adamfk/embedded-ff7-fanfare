@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 85.33, "left": -12.67, "attrs": {} },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -36,
+      "left": 88.2,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "uno:10", "bz1:2", "green", [ "v-27", "h29" ] ],
+    [ "bz1:1", "uno:GND.1", "green", [ "v10", "h-42" ] ]
+  ],
+  "dependencies": {}
+}
